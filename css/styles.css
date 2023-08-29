@@ -122,6 +122,8 @@ button {
 
 .page-address {
     font-style: normal;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .menu-link:hover,
