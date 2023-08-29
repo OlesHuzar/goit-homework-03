@@ -106,13 +106,6 @@ button {
         color: var(--primary-text-color);
 }
 
-.contacts-list {
-    display: flex;
-    gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .contacts-list-link {
     color: #434455;
         font-size: 16px;        
