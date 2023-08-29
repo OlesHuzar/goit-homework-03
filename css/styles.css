@@ -43,7 +43,6 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    margin-bottom: 8px;
 }
 
 body {
@@ -180,7 +179,6 @@ button {
 .hero-section {
     padding-top: 120px;
     padding-bottom: 120px;
-    width: calc((100% - 72px) / 4);
 }
 
 .features-list {
@@ -188,7 +186,6 @@ button {
     column-gap: 24px;
     align-items: center;
     gap: 24px;
-    
 }
 
 .features-name {    
@@ -196,6 +193,7 @@ button {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
         color: var(--primary-text-color);
 }
 
@@ -223,6 +221,7 @@ button {
         color: var(--primary-text-color);
         text-transform: capitalize; 
         padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 
 .company-team-list {
@@ -236,12 +235,19 @@ button {
     background-color: #FFFFFF;
 }
 
+.name-and-position {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .team-pictures-name {
         text-align: center;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 8px;
         color: var(--primary-text-color);
 }
 
@@ -250,6 +256,7 @@ button {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: center;
         color: #434455;
 }
 
@@ -264,6 +271,14 @@ button {
 .portfolio-list {
     display: flex;
     column-gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+
+.name-and-category {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-pictures-name {
@@ -271,6 +286,7 @@ button {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     color: var(--primary-text-color);
 }
 
@@ -291,6 +307,8 @@ button {
 
 .span-logotype-footer {
     color: #F4F4FD;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
