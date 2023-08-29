@@ -123,10 +123,10 @@ button {
 .page-address {
     font-style: normal;
         display: flex;
-        align-items: center;
-        width: 100%;
-        max-width: 471px;
-        justify-content: space-between;
+        gap: 40px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    
 }
 
 .menu-link:hover,
@@ -192,6 +192,10 @@ button {
     gap: 24px;
 }
 
+.features-item {
+width: calc((100% - 72px) / 4);
+}
+
 .features-name {    
         font-size: 20px;
         font-weight: 500;
@@ -199,7 +203,6 @@ button {
         letter-spacing: 0.02em;
         margin-bottom: 8px;
         color: var(--primary-text-color);
-        width: calc((100% - 72px) / 4);
     }
 
 .features-text {    
