@@ -122,6 +122,11 @@ button {
 
 .page-address {
     font-style: normal;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 471px;
+        justify-content: space-between;
 }
 
 .menu-link:hover,
@@ -137,14 +142,8 @@ button {
 .main-section {
     background:#2E2F42;
     flex-shrink: 0;
-        padding-top: 24px;
-        padding-bottom: 24px;
-        margin-top: 120px;
-        gap: 40px;
-        display: flex;
-        align-items: center;
-        padding-left: 15px;
-        padding-right: 15px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-text {
@@ -184,7 +183,6 @@ button {
 .hero-section {
     padding-top: 120px;
     padding-bottom: 120px;
-    width: calc((100% - 72px) / 4);
 }
 
 .features-list {
@@ -201,7 +199,8 @@ button {
         letter-spacing: 0.02em;
         margin-bottom: 8px;
         color: var(--primary-text-color);
-}
+        width: calc((100% - 72px) / 4);
+    }
 
 .features-text {    
         font-size: 16px;
