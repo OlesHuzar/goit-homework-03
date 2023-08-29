@@ -141,6 +141,8 @@ button {
     flex-shrink: 0;
     padding-top: 188px;
     padding-bottom: 188px;
+    display: flex;
+    align-items: center;
 }
 
 .main-text {
