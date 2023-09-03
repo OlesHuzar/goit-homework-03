@@ -56,14 +56,13 @@ button {
 }
 
 .page-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
 .page-header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .page-navigation {
@@ -87,7 +86,6 @@ button {
         text-transform: uppercase;
         color: #4d5ae5;
         align-items: center;
-        margin-right: 76px;
 }
 
 .menu {
@@ -102,14 +100,13 @@ button {
         letter-spacing: 0.02em;
         padding-top: 24px;
         padding-bottom: 24px;
+        display: block;
         color: var(--primary-text-color);
 }
 
 .contacts-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .contacts-list-link {
@@ -121,8 +118,6 @@ button {
 
 .page-address {
     font-style: normal;
-        padding-top: 24px;
-        padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -151,6 +146,10 @@ button {
         line-height: 1.07;        
         letter-spacing: 0.02em;
         max-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 188px;
+        margin-bottom: 48px;
 }
 
 .main-button {
@@ -161,6 +160,9 @@ button {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 188px;
 }
 
 .text-button {
@@ -213,8 +215,6 @@ width: calc((100% - 72px) / 4);
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
-    align-items: center;
-    margin-bottom: 72px;
 }
 
 .company-title {
@@ -225,7 +225,6 @@ width: calc((100% - 72px) / 4);
         letter-spacing: 0.02em;
         color: var(--primary-text-color);
         text-transform: capitalize; 
-        padding-bottom: 72px;
         margin-bottom: 72px;
 }
 
@@ -270,9 +269,6 @@ width: calc((100% - 72px) / 4);
 .portfolio-section{
         padding-top: 120px;
         padding-bottom: 120px;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -326,4 +322,5 @@ width: calc((100% - 72px) / 4);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        max-width: 265px;
 }
