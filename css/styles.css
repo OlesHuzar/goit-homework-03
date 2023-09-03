@@ -75,7 +75,6 @@ button {
 
 .span-logotype {
     color: #2e2f42;
-    margin-right: 76px;
 }
 
 .logotype {    
@@ -87,6 +86,10 @@ button {
         text-transform: uppercase;
         color: #4d5ae5;
         align-items: center;
+}
+
+.logotype:not(:last-child) {
+        margin-right: 76px;
 }
 
 .menu {
